@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="registrasi.css">
+    <script src="registrasi.js"></script>
+
+</head>
+<body>
+<div class="header">
+        <a href="home_page.html"><img src="logo/Logo 1 PNG.png" alt="" width="225px"></a>
+            <div class="menu" style="float:right;">
+                <button class="menubtn">Menu</button>
+                <div class="menu-content">
+                <a href="home_page.html">Home</a>
+                <a href="catalog_album1.html">Album</a>
+                <a href="catalog_merchandise.html">Merchandise</a>
+                <a href="testimonial.html">Testimonial</a>
+                </div>
+            </div>
+     </div>
+     <div class="Content"> 
+        <div class="ContentRegistrasi">
+            <h1>Registration Form</h1>
+            <form action="">
+                <div class = "form-registrasi">
+                    <label for="">Username</label>
+                    <input type="text" id="usernametxt">
+                </div>
+                <div class = "form-registrasi">
+                    <label for="">Full Name</label>
+                    <input type="text" id="name">
+                </div>
+                <div class = "form-registrasi">
+                    <label for="">Email</label>
+                    <input type="email" id="emailtxt">
+                </div>
+                <div class = "form-registrasi">
+                    <label for="">Age</label>
+                    <input type="number" id="age">
+                </div>
+                <div class = "form-Rgender">
+                    <label for="">Gender</label>
+                    <div class="gen">
+                        <input type="radio" name="gender" id="male" value="Male">Male
+                        <input type="radio" name="gender" id="female" value="Female">Female
+                    </div>
+                </div>
+                <div class = "form-registrasi">
+                    <label for="">Password</label>
+                    <input type="password" id="password">
+                </div>
+                <div class = "form-registrasi">
+                    <label for="">Confirmation Password</label>
+                    <input type="password" id="confirmationpassword">
+                </div>
+                
+                <div class = "form-Rbox">
+                    <input type="checkbox" name="" id="agree">- I agree with Terms & Conditions!
+                </div>
+                <button onclick="getData()">SUBMIT</button>
+            </form>
+        </div>
+        <div class="footer">
+            <a href="https://www.instagram.com/"><img src="sosmed/instagram.png" alt=""></a>
+            <a href="https://www.facebook.com/"><img src="sosmed/facebook.png" alt="" ></a>
+            <p> Copyright Store Del Luna. All Rights Reserved</p>
+        </div>
+     </div>
+    
+</body>
+</html>

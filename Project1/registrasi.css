@@ -1,0 +1,113 @@
+html,body{
+    margin: 0%;
+}
+.Content{
+    background-image: linear-gradient(140deg, #EADEDB 0%,#BC70A4 50%, #BFD641 75%);
+    padding-top: 4%;
+}
+.Content h1{
+  text-align: center;
+  font-size: 40px;
+}
+.header{
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    position: relative;
+    display: inline-block;
+  }
+.menubtn {
+    background-color: #f3bcbc;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+.menu-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color:  #f3bcbc;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+.menu-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.menu-content a:hover {background-color: #b88f8f;}
+.menu:hover .menu-content {
+    display: block;
+  }
+  .ContentRegistrasi h1{
+    text-align: center;
+}
+.ContentRegistrasi{
+   
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.form-registrasi input,select{
+    width : 300px;
+    padding: 10px 15px;
+    border : none;
+    border-bottom: solid 1px gray;
+}
+.form-registrasi{
+    width: 500px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1%;
+}
+.form-Rgender{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-Rbox{
+    display: flex;
+    align-items: center;
+    margin-block: 1%;
+}
+  .footer{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .footer p{
+    text-align: center;
+    color: white;
+  }
+  .footer img{
+    width: 60px;
+  }
+  @media screen and (max-width: 600px){
+    
+    .ContentRegistrasi h1{
+      font-size: 15px;
+    }
+    
+    .form-registrasi{
+      width: 480px;
+      padding-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 1%;
+  }
+}

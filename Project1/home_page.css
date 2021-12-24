@@ -1,0 +1,229 @@
+
+html,body{
+    margin: 0%;
+}
+.Content{
+    background-image: linear-gradient(140deg, #EADEDB 0%,#BC70A4 50%, #BFD641 75%);
+    padding-top: 4%;
+}
+.Content h1{
+  text-align: center;
+  font-size: 40px;
+}
+.header{
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    position: relative;
+    display: inline-block;
+  }
+.menubtn {
+    background-color: #f3bcbc;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+.menu-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color:  #f3bcbc;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+.menu-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.menu-content a:hover {background-color: #b88f8f;}
+.menu:hover .menu-content {
+    display: block;
+  }
+.container{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.frame{
+  width: 25%;
+  height: 400px;
+  background-color: red;
+  overflow-x: hidden;
+}
+.slide-container{
+  width: 350%;
+  display: flex;
+  position: relative;
+
+}
+.slide{
+  width: 30%;
+  height: 400px ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#slide1{
+  background-image: url('album/album\ blackpink.png');
+}
+#slide2{
+  background-image: url('album/album\ bts.jpg');
+}
+#slide3{
+  background-image: url('album/album\ exo\(3\).jpg');
+}
+.paragraf{
+  text-align: center;
+  font-size: 15px;
+}
+.merchandise{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.merchandise_cnt{
+  border: 6px solid white;
+  padding: 2%;
+  background-color: white;
+ 
+
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  
+  box-shadow: 10px 10px 5px grey;
+
+  opacity: 100%;
+  transition: 0.5s;
+}
+
+.merchandise_cnt h3{
+  padding-bottom: 5%;
+}
+
+.merchandise_cnt:hover {
+  opacity: 50%;
+  transition: 0.5s;
+}
+
+.merchandise_cnt img{
+  border: 1px solid gray;
+  height: 225px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.album{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.album_cnt{
+  border: 6px solid white;
+  padding: 2%;
+  background-color: white;
+
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  
+  box-shadow: 10px 10px 5px grey;
+
+  opacity: 100%;
+  transition: 0.5s;
+}
+
+.album_cnt h3{
+  padding-bottom: 15%;
+}
+
+.album_cnt:hover {
+  opacity: 50%;
+  transition: 0.5s;
+}
+
+.album_cnt img{
+  border: 1px solid gray;
+
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.footer{
+  background-color:black;
+  display: flex;
+  flex-direction: column;
+  
+}
+.footer p{
+  text-align: center;
+  color: white;
+}
+.footer img{
+  width: 60px;
+}
+@media screen and (max-width: 600px){
+  .header img{
+    height: 140px;
+    width:35%;
+  }
+  .frame{
+    width: 80%;
+    height:400px;
+    background-color: red;
+    overflow-x: hidden;
+  }
+  .slide-container{
+    width: 300%;
+    display: flex;
+    position: relative;
+  
+  }
+  .slide{
+    width: 40%;
+    height: 400px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .paragraf{
+    font-size: 9px;
+
+  }
+  .merchandise_cnt h3{
+    padding-bottom: 15%;
+    font-size: 10px;
+  }
+  .merchandise_cnt img{
+    border: 1px solid gray;
+    height: 40px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+  .album_cnt h3{
+    padding-bottom: 15%;
+    font-size: 10px;
+  }
+  .album_cnt img{
+    border: 1px solid gray;
+    height: 40px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+}
